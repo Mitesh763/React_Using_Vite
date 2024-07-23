@@ -1,0 +1,53 @@
+.container-app {
+  display: flex;
+}
+
+.header-container {
+  width: 500vw !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+header {
+  width: 96% !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.text-end {
+  width: 30vh !important;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+
+.footer-container {
+  width: 500vh !important;
+}
+
+footer {
+  text-align: center !important;
+  width: 75% !important;
+  top: 75%;
+  bottom: 0;
+  position: relative;
+}
+
+.slider-con {
+  height: 40vw;
+}
+
+.text-end {
+  right: 0;
+  /* top: 0; */
+  position: absolute;
+}
+
+.spinner {
+  margin: 20vh 0 0 75vh;
+}

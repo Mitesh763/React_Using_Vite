@@ -1,0 +1,55 @@
+body {
+  overflow-x: hidden;
+}
+
+form {
+  padding: 0;
+  /* border: 2px dotted gray; */
+  margin: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  min-width: 10vh !important;
+  /* width: 50vh; */
+}
+
+form input {
+  width: 53vh !important;
+}
+
+form label {
+  display: flex;
+  margin: 10px;
+}
+
+form textarea {
+  width: 53vh !important;
+  border: 1px ridge gray;
+  border-radius: 5px;
+}
+
+form button {
+  width: 32.5% !important;
+}
+
+.hashTag {
+  /* display: flex; */
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 8px;
+  margin: 2px 5px;
+  box-sizing: border-box;
+  min-width: 50px;
+}
+
+.reactions {
+  margin: 20px 0 0px 0;
+  bottom: 0;
+  position: static;
+}
+
+.form-heading {
+  text-align: center;
+}

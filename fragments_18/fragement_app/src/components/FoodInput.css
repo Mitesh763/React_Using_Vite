@@ -1,0 +1,10 @@
+.input_field {
+  border: none;
+  border-left: 2px solid gray;
+  width: 60%;
+  min-width: 10px;
+  padding: 0.5rem;
+  margin-bottom: 35px;
+  /* border: 2px solid gray; */
+  border-radius: 0.5rem;
+}

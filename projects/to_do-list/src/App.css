@@ -1,0 +1,12 @@
+input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.row {
+  margin: 1rem;
+}
+input[type="text"] {
+  background-color: #fff;
+  color: black;
+}

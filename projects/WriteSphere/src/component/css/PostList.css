@@ -1,0 +1,13 @@
+.post-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* gap: 1rem; */
+  margin: 1rem;
+}
+
+.welcome-msg {
+  /* border: 2px solid black; */
+  text-align: center !important;
+  margin: 10px 0 0 38vh;
+}
